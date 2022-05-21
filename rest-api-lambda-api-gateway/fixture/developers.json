@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cabfc23a-85b1-4a55-9ad3-292b6ca48151",
+    "name": "Nelson Mateus Cláudio Ribeiro",
+    "email": "nelson-ribeiro85@gmail.com",
+    "github": "nelson_ribeiro",
+    "commitMessages": [
+      "I forgot to commit... So here you go.",
+      "oops",
+      "fixed mistaken bug",
+      "A long time ago, in a galaxy far far away...",
+      "a few bits tried to escape, but we caught them",
+      "Revert this commit",
+      "done. going to bed now."
+    ]
+  },
+  {
+    "id": "b954786b-babf-45d8-9d34-c34d1a2e9090",
+    "name": "Stella Manuela Souza",
+    "email": "stella_souza@yahoo.com",
+    "github": "stella_souza",
+    "commitMessages": [
+      "I'm guessing this may start causing us problems either soon or never.",
+      "I'm sorry.",
+      "Transpiled mainframe.",
+      "commit",
+      "A fix I believe, not like I tested or anything"
+    ]
+  },
+  {
+    "id": "eb5f3cb9-31b9-45b9-8fd5-127c790d7511",
+    "name": "Rebeca Alana Marli Sales",
+    "email": "rebeca-sales93@hotmail.com",
+    "github": "rebeca_sales",
+    "commitMessages": [
+      "Added a banner to the default admin page. Please have mercy on me =(",
+      "This Is Why We Don't Push To Production On Fridays",
+      "I don't know what these changes are supposed to accomplish but somebody told me to make them.",
+      "Don't push this commit",
+      "asdfasdfasdfasdfasdfasdfadsf",
+      "It works on my computer",
+      "This really should not take 19 minutes to build.",
+      "I am the greatest javascript developer in the world.",
+      "¯\\_(ツ)_/¯"
+    ]
+  }
+]
