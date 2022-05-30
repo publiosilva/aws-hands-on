@@ -19,7 +19,7 @@ class HttpError extends Error {
   }
 
   static internalServer() {
-    return new HttpError(404, 'NotFoundError', 'Internal server error');
+    return new HttpError(500, 'InternalServerError', 'Internal server error');
   }
 }
 

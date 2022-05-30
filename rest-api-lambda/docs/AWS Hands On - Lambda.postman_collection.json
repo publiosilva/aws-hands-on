@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "a21687f0-b0aa-4dd0-bda8-18ec929ca3dc",
+		"name": "AWS Hands On - Lambda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6141596"
+	},
+	"item": [
+		{
+			"name": "Commits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{lambda_url}}/commits?developerId=cabfc23a-85b1-4a55-9ad3-292b6ca48151",
+					"host": [
+						"{{lambda_url}}"
+					],
+					"path": [
+						"commits"
+					],
+					"query": [
+						{
+							"key": "developerId",
+							"value": "cabfc23a-85b1-4a55-9ad3-292b6ca48151"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Developers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{lambda_url}}/developers",
+					"host": [
+						"{{lambda_url}}"
+					],
+					"path": [
+						"developers"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "lambda_url",
+			"value": "https://ssnrcsbdo4y6lteel55eopagve0pxaan.lambda-url.us-east-1.on.aws"
+		}
+	]
+}
