@@ -5,13 +5,23 @@
     "email": "nelson-ribeiro85@gmail.com",
     "github": "nelson_ribeiro",
     "commitMessages": [
+      "No time to commit.. My people need me!",
+      "removed tests since i can't make them green",
       "I forgot to commit... So here you go.",
       "oops",
       "fixed mistaken bug",
       "A long time ago, in a galaxy far far away...",
       "a few bits tried to escape, but we caught them",
       "Revert this commit",
-      "done. going to bed now."
+      "done. going to bed now.",
+      "To be honest, I do not quite remember everything I changed here today. But it is all good, I tell ya.",
+      "changes",
+      "hmmm",
+      "lots and lots of changes",
+      "formatted all",
+      "Continued development...",
+      "For the statistics only",
+      "Yep, Igor was right on this one."
     ]
   },
   {
@@ -20,11 +30,22 @@
     "email": "stella_souza@yahoo.com",
     "github": "stella_souza",
     "commitMessages": [
+      "Too lazy to write descriptive message",
       "I'm guessing this may start causing us problems either soon or never.",
       "I'm sorry.",
       "Transpiled mainframe.",
       "commit",
-      "A fix I believe, not like I tested or anything"
+      "A fix I believe, not like I tested or anything",
+      "This will definitely break in 2029 (TODO)",
+      "Yes, I was being sarcastic.",
+      "this is Spartaaaaaaaa",
+      "No changes after this point.",
+      "It was the best of times, it was the worst of times",
+      "more stuff",
+      "oops, forgot to add the file",
+      "whooooooooooooooooooooooooooo",
+      "I dont know what I am doing",
+      "One little whitespace gets its very own commit! Oh, life is so erratic!"
     ]
   },
   {
@@ -33,15 +54,20 @@
     "email": "rebeca-sales93@hotmail.com",
     "github": "rebeca_sales",
     "commitMessages": [
+      "copy and paste is not a design pattern",
+      "[Insert your commit message here. Be sure to make it descriptive.]",
+      "Don't Ask Me, I Have No Idea Why This Works Either",
       "Added a banner to the default admin page. Please have mercy on me =(",
-      "This Is Why We Don't Push To Production On Fridays",
       "I don't know what these changes are supposed to accomplish but somebody told me to make them.",
       "Don't push this commit",
       "asdfasdfasdfasdfasdfasdfadsf",
       "It works on my computer",
       "This really should not take 19 minutes to build.",
       "I am the greatest javascript developer in the world.",
-      "¯\\_(ツ)_/¯"
+      "¯\\_(ツ)_/¯",
+      "fixed some minor stuff, might need some additional work.",
+      "This is my code. My code is amazing.",
+      "This Is Why We Don't Push To Production On Fridays"
     ]
   }
 ]

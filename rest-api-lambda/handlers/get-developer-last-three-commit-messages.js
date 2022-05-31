@@ -13,7 +13,7 @@ async function getDeveloperLastThreeCommitMessages(requestEvent) {
     return HttpError.notFound('Developer not found').toHttpResponse().toEvent();
   }
 
-  const data = developer.commitMessages.slice(-3);
+  const data = developer.commitMessages.sort(() => Math.random() - Math.random()).slice(-3);
 
   return new HttpResponse(200, JSON.stringify(data)).toEvent();
 }
