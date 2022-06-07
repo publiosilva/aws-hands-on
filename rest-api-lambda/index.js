@@ -1,7 +1,7 @@
-const { HttpError } = require('./http/http-error');
 const { getAllDevelopers } = require('./handlers/get-all-developers');
-const { getDeveloperLastThreeCommitMessages } = require('./handlers/get-developer-last-three-commit-messages');
+const { getThreeRandomDeveloperCommitMessages } = require('./handlers/get-three-random-developer-commit-messages');
 const { log } = require('./helpers/log');
+const { HttpError } = require('./http/http-error');
 
 async function handler(requestEvent) {
   log(JSON.stringify({ requestEvent }, null, 2));
@@ -9,7 +9,7 @@ async function handler(requestEvent) {
   try {
     const { rawPath } = requestEvent;
     const requestHandlers = {
-      '/commits': getDeveloperLastThreeCommitMessages,
+      '/commits': getThreeRandomDeveloperCommitMessages,
       '/developers': getAllDevelopers,
     };
     const requestHandler = requestHandlers[rawPath];

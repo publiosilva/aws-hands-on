@@ -3,7 +3,7 @@ const developers = require('../fixture/developers.json');
 const { HttpError } = require('../http/http-error');
 const { HttpResponse } = require('../http/http-response');
 
-async function getDeveloperLastThreeCommitMessages(requestEvent) {
+async function getThreeRandomDeveloperCommitMessages(requestEvent) {
   await addSomeRandomDelayJustForFun();
 
   const { developerId } = requestEvent.queryStringParameters || {};
@@ -18,4 +18,4 @@ async function getDeveloperLastThreeCommitMessages(requestEvent) {
   return new HttpResponse(200, JSON.stringify(data)).toEvent();
 }
 
-module.exports = { getDeveloperLastThreeCommitMessages };
+module.exports = { getThreeRandomDeveloperCommitMessages };
