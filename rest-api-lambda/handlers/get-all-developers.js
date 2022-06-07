@@ -14,7 +14,7 @@ async function getAllDevelopers() {
     githubProfile: `https://github.com/${github}`,
   }));
 
-  return new HttpResponse(200, JSON.stringify(data)).toEvent();
+  return new HttpResponse(200, JSON.stringify(data));
 }
 
 module.exports = { getAllDevelopers };

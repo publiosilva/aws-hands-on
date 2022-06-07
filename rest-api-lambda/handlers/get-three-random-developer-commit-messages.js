@@ -10,12 +10,12 @@ async function getThreeRandomDeveloperCommitMessages(requestEvent) {
   const developer = developers.find((dev) => dev.id === developerId);
 
   if (!developer) {
-    return HttpError.notFound('Developer not found').toHttpResponse().toEvent();
+    return HttpError.notFound('Developer not found').toHttpResponse();
   }
 
   const data = developer.commitMessages.sort(() => Math.random() - Math.random()).slice(-3);
 
-  return new HttpResponse(200, JSON.stringify(data)).toEvent();
+  return new HttpResponse(200, JSON.stringify(data));
 }
 
 module.exports = { getThreeRandomDeveloperCommitMessages };

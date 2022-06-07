@@ -15,7 +15,7 @@ async function handler(requestEvent) {
     const requestHandler = requestHandlers[rawPath];
 
     if (!requestHandler) {
-      return HttpError.notFound('Not found').toHttpResponse().toEvent();
+      return HttpError.notFound('Not found').toHttpResponse();
     }
 
     const responseEvent = await requestHandler(requestEvent);
@@ -26,7 +26,7 @@ async function handler(requestEvent) {
   } catch (error) {
     log(JSON.stringify(error, Object.getOwnPropertyNames(error), 2));
 
-    return HttpError.internalServer().toHttpResponse().toEvent();
+    return HttpError.internalServer().toHttpResponse();
   }
 }
 
